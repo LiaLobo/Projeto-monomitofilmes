@@ -1,73 +1,78 @@
-.container_port{
+#container-port{
     position: relative;
-    width: 902px;
-    height: 471px;
-    overflow: hidden;
-    clear: both;
+    width: 906px;
+    height: 475px;
     border: 2px solid #fff;
     cursor: pointer;
     -moz-box-shadow: 1px 1px 3px #222;
     -webkit-box-shadow: 1px 1px 3px  #222;
     box-shadow: 1px 1px 3px #222;
-
 }
 
-.container_port .area{
-    position: absolute;
-    overflow: hidden;
-}
-
-.area1 img{
+.area1{
+    
+	width: 449px;
+    height:334px;
     position: absolute;
     top: 0px;
     left: 0px;
-    display: none;
-}
-
-.area img.visible{
-    display: block;
-    z-index: 1;
-}                
-
-.area1{
-    border-right:2px solid #fff;
-}
-.area4, .area5{
-    border-top:2px solid #fff;
-}
-.area4{
-    border-right: 2px solid #fff ;
-}
-.area3{
-	border-top:2px solid #fff;
-}
-.area1{
-	width:449px;
-	height:334px;
-	top:0px;
-	left:0px;
 }
 .area2{
-	width:451px;
-	height:165px;
-	top:0px;
-	left:451px;
+   
+    width:441px;
+    height:235px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 .area3{
-	width:451px;
-	height:167px;
-	top:165px;
-	left:451px;
+    
+	width:584px;
+    position: absolute;
+    bottom: 38px;
+    left: 357px;
 }
 .area4{
+    
 	width:192px;
-	height:135px;
-	top:334px;
-	left:0px;
+    height:135px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
 .area5{
-	width:708px;
-	height:135px;
-	top:334px;
-	left:194px;
+    
+    width: 77%;
+    height: 28%;
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+}
+
+#container-port{
+    width: 906px;
+    position: relatve;
+    margin: 20px auto 0px auto;
+}
+    
+	
+
+
+.visible1{
+    
+    width: 449px;
+    height: 325px;
+}
+.visible2{
+    width: 451px;
+}
+.visible3{
+    width: 451px;
+}
+.visible4{
+    width: 192px;
+    
+}
+.visible5{
+    width: 28%;
 }
