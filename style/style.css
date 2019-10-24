@@ -1,0 +1,33 @@
+/* body {
+    background-color: black ;
+} */
+
+.modal-footer {
+    justify-content: center;
+    border: 0;
+}
+
+.btn-modal {
+    background: #b2fd34;
+    color: black;
+}
+
+.modal-header {
+    border: 0;
+}
+
+.modal-content {
+    background: transparent;
+    border: 0;
+}
+
+.changefoto{
+    width: 235px;
+    height: 160px;
+}
+
+
+
+.img-thumbnail {
+    background-color: #d2fd34;
+}
