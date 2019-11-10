@@ -15,64 +15,64 @@ body{
 @font-face { 
     font-family: 'AmericanCaptain';
     src: url('./../assest/AmericanCaptain.otf');
- }
+}
 
 .fixo{
     height: 90px;
     background-image: linear-gradient(to bottom, black , rgba(0, 0, 0, 0.062));
 }
 
-img{
+img {
     width: 100%;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     margin-top: 30px;
 }
 
-nav img{
+nav img {
     width:150px;
     z-index: 1;
     margin-left: 100px;
     margin-top: 50px;
 }
 
-.nav-item{
+.nav-item {
     margin: 0 5px;
 }
 
-.menu-responsivo{
+.menu-responsivo {
     width: 100vw;
 }
 
-.navegacao{
+.navegacao {
     font-family: 'AmericanCaptain';
     font-size: 24px;
 }
 
-hr{
+hr {
     background-color:#d2fd34;
     width:45px;
     height: 5px;
     margin-top: 0;
 }
 
-.traco{
+.traco {
     opacity: 0;
     transform: scale(1,3);
     transition: 0.5s all;
 }
 
-.nav-item:hover .traco{
+.nav-item:hover .traco {
     opacity: 1;
     transform: scale(1);
     transition:0,5s all;
 }
 
-.menu{
+.menu {
     background-color:white;
     z-index: 1;
 }
@@ -113,8 +113,9 @@ header {
 }
 
 .titulo {
-    font-size: 15px;
-    color: white;
+    font-size: 1.4rem;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    
 }
 
 .texto-monomito {
@@ -214,52 +215,47 @@ header {
     transition: 0.5s all;
 }
 
-.fonte{
-    font-size: 1.2rem;
+.fonte {
+    font-size: 1.4rem;
     margin-bottom: 50px;
 }
 
-.posicao-ipad{
+.posicao-ipad {
     object-fit: cover;
 }
 
-.h-ipad{
+.h-ipad {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-weight: bolder;
 }
 
 /* //MODAL// */
 
-.modal-header{
+.modal-header {
     display: none;
 }
 
-.close{
-    color: white;
-}
-
-.modal-body{
+.modal-body {
     background-color: #000000;
 }
 
 /* //CONTATOS// */
 
-#contato{
+#contato {
     width: 100%;
-    background-color: black;
-    font-size:20px;
+    font-size: 1.4rem;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-#icones{
+#icones {
     width: 100%;
 }
 
 /* //FOOTER// */
 
-#footer{
+#footer {
     background-color: black;
     font-size: 10px;
-    
 }
 
 #texto {
@@ -267,11 +263,11 @@ header {
    font-size: 10px;
 }
 
-#facebook{
- align-items: center;
+#facebook {
+    align-items: center;
 }
 
-#facebook a{
+#facebook a {
     text-decoration: none;
 }
 
@@ -280,11 +276,11 @@ header {
     height: 15px;
 }
 
-#instagram{
+#instagram {
     align-items: center;
 }
 
-#instagram a{
+#instagram a {
     text-decoration: none;
 }
 
@@ -293,11 +289,11 @@ header {
     height: 17px;
 }
 
-#youtube{
+#youtube {
     align-items: center;
 }
 
-#youtube a{
+#youtube a {
     text-decoration: none;
 }
 
@@ -437,9 +433,9 @@ header {
 
 @media (min-width: 768px){
 
-    #contato{
+    /* #contato{
         font-size:25px;
-    }
+    } */
     
     #footer{
         background-color: black;
@@ -482,7 +478,7 @@ header {
 @media (min-width: 1024px){
 
     #contato{
-        font-size:30px;
+        /* font-size:30px; */
         padding: 120px;
     }
     
@@ -556,7 +552,7 @@ header {
     }
 
     .titulo {
-        font-size: 20px;
+        /* font-size: 20px; */
         margin-left: 30px;
     }
 
@@ -602,7 +598,7 @@ header {
     }
 
     .titulo {
-        font-size: 25px;
+        /* font-size: 25px; */
         margin-top: 10px
     }
 
@@ -658,7 +654,7 @@ header {
 
     .titulo {
         margin-top: 10px;
-        font-size: 25px;
+        /* font-size: 25px; */
     }
 
     .texto-monomito {
@@ -963,7 +959,7 @@ header {
     .titulo {
         margin-top: 40px;
         margin-left: 104px;
-        font-size: 30px;
+        /* font-size: 30px; */
     }
     
     .texto-monomito {
@@ -1055,7 +1051,7 @@ header {
     .titulo {
         margin-top: 40px;
         margin-left: 450px;
-        font-size: 23px;
+        /* font-size: 23px; */
     }
     
     .texto-monomito {
