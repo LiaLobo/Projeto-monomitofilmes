@@ -115,7 +115,6 @@ header {
 .titulo {
     font-size: 1.4rem;
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    
 }
 
 .texto-monomito {
@@ -324,10 +323,10 @@ header {
         background-color:white;
     }
 
-    .fixo{
+    /* .fixo{
         height: 90px;
         background-color: black;
-    }
+    } */
 
     .navegacao{
         font-family: 'AmericanCaptain';
@@ -397,10 +396,10 @@ header {
         margin-top: -10px;
     }
 
-    .fixo{
+    /* .fixo{
         height: 90px;
         background-color: black;
-    }
+    } */
     
     .logo-monomito {
         display: none;
@@ -464,10 +463,10 @@ header {
         background-color:white; 
     }
 
-    .fixo{
+    /* .fixo{
         height: 90px;
         background-color: black;
-    }
+    } */
 
     .texto-somos {
         font-size: 30px;
@@ -702,7 +701,7 @@ header {
 
     .fixo{
         height: 80px;
-        background-color: black;
+        background-image: black;
         position: relative;
     }
     
@@ -839,7 +838,7 @@ header {
 }
 
 @media (min-width: 1440px) {
-    
+
     .logo-monomito {
         width: 100px;
     }
