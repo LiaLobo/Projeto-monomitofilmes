@@ -187,8 +187,8 @@ header {
 /* //PORTFOLIO// */
 
 #portfolio {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 200px;
+    margin-bottom: 300px;
 }
 
 .bg-verde{
@@ -308,102 +308,7 @@ header {
 
 /* //MEDIA QUERIES// */
 
-@media(min-width:1024px){
-
-    .menu-responsivo{
-        background-color: transparent;
-        width: auto;
-    }
-}
-
-@media (max-width: 991px){
-
-
-    .menu-responsivo{
-        background-color: black;
-       position: absolute;
-       width: 100%;
-       top: 80px;
-    }
-
-    nav img{
-        width:130px;
-        z-index: 1;
-        margin-left: 1px;
-        margin-top: 2px;   
-    }
-
-    .menu{
-        background-color:white;
-        margin-top: -10px;
-    }
-
-    .fixo{
-        height: 80px;
-        background-color: black;
-        position: relative;
-    }
-    
-}
-
-
-@media (max-width: 425px){
-
-
-    .menu-responsivo{
-        background-color: black;
-        width: 100vw;
-    }
-
-    nav img{
-        width:90px;
-        z-index: 1;
-        margin-left: 1px;
-        margin-top: 2px; 
-    }
-
-    .menu{ 
-        width: 20px;
-        height: 20px;
-        background-color:white; 
-    }
-
-    .fixo{
-        height: 90px;
-        background-color: black;
-    }
-    
-}
-
-@media (max-width: 375px){
-
-    .menu-responsivo{
-        background-color: black;
-        width: 100vw;
-    }
-
-    nav img{
-        width:80px;
-        z-index: 1;
-        margin-left: 1px;
-        margin-top: 2px;
-    }
-
-    .menu{
-        width: 20px;
-        height: 20px;
-        background-color:white;
-        margin-top: -10px;
-    }
-
-    .fixo{
-        height: 90px;
-        background-color: black;
-    }
-    
-}
-
-@media (max-width: 320px){
+@media (min-width: 320px){
 
     .menu-responsivo{
         background-color: black;
@@ -433,9 +338,310 @@ header {
        font-size: 18px;
     }
     
+    .logo-monomito {
+        display: none;
+    }
+
+    .logo-monomito-2 {
+        display: none;
+    }
+
+    .texto-somos {
+        margin-top: 10px;
+        font-size: 19px;
+        margin-right: -86px;
+    }
+
+    .foto-larissa {
+        margin-left: 64px;
+    }
+
+    .foto-lincoln {
+        margin-left: 64px;
+    }
+
+    .foto-paulo {
+        margin-left: 64px;
+    }
+
+    .titulo {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    .texto-monomito {
+        font-size: 18px;
+        margin-left: 30px;    
+    }
+
+    .texto-monomito-2 {
+        font-size: 18px;
+        margin-left: 30px;
+        
+    }
 }
 
-@media (min-width: 768px){
+@media (min-width: 375px) {
+
+    .menu-responsivo{
+        background-color: black;
+        width: 100vw;
+    }
+
+    nav img{
+        width:80px;
+        z-index: 1;
+        margin-left: 1px;
+        margin-top: 2px;
+    }
+
+    .menu{
+        width: 20px;
+        height: 20px;
+        background-color:white;
+        margin-top: -10px;
+    }
+
+    .fixo{
+        height: 90px;
+        background-color: black;
+    }
+    
+    .logo-monomito {
+        display: none;
+    }
+
+    .logo-monomito-2 {
+        display: none;
+    }
+
+    .texto-somos {
+        font-size: 25px;  
+    }
+
+    .foto-larissa {
+        margin-left: 13px;
+        margin-bottom: 5px;
+    }
+
+    .foto-lincoln {
+        margin-left: 13px;
+        margin-bottom: 5px;
+    }
+
+    .foto-paulo {
+        margin-left: 13px;
+        margin-bottom: 5px;
+    }
+
+    .titulo {
+        font-size: 25px;
+        margin-top: 10px
+    }
+
+    .texto-monomito {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .texto-monomito-2 {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 425px) {
+
+    .menu-responsivo{
+        background-color: black;
+        width: 100vw;
+    }
+
+    nav img{
+        width:90px;
+        z-index: 1;
+        margin-left: 1px;
+        margin-top: 2px; 
+    }
+
+    .menu{ 
+        width: 20px;
+        height: 20px;
+        background-color:white; 
+    }
+
+    .fixo{
+        height: 90px;
+        background-color: black;
+    }
+
+    .texto-somos {
+        font-size: 30px;
+    }
+
+    .foto-larissa {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .texto-larissa {
+        font-size: 21px;
+    }
+    
+    .foto-lincoln {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .texto-lincoln {
+        font-size: 21px;
+    }
+
+    .foto-paulo {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .texto-paulo {
+        font-size: 21px;
+    }
+
+    .titulo {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .texto-monomito {
+        margin-left: 25px;
+        font-size: 20px;
+    }
+
+    .texto-monomito-2 {
+        margin-left: 25px;
+        font-size: 20px;
+       
+    }
+}
+@media (min-width: 768px) {
+
+    .container-row {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .producao-img {
+        position: relative;
+        width: 60%;
+    }
+
+    .fotos {
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+
+    .logo-monomito {
+        display: flex;
+        width: 50px;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        transform: translateX(-85%);
+    }
+
+    .logo-monomito-2 {
+        display: flex;
+        width: 50px;
+        position: absolute;
+        top: 60px;
+        left: 10px;
+        transform: translateX(85%);
+    }
+
+    .div-mae{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .texto-somos {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    
+    .texto-larissa {
+        font-size: 16px;
+        width: 167px;
+    }
+
+    .foto-larissa{
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+
+    .texto-lincoln {
+        font-size: 16px;
+        width: 167px;
+    }
+
+    .foto-lincoln{
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+
+    .texto-paulo {
+        font-size: 16px;
+        width: 167px;
+    }
+
+    .foto-paulo {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+
+    .texto-quem-somos{
+        display: block;
+    }
+    
+    .titulo {
+        margin-top: 30px;
+        margin-left: 110px;
+    }
+
+    .texto-monomito {
+        flex-direction: column;
+        margin-left: 97px;
+        font-size: 17px;
+    }
+
+    .texto-monomito-2 {
+        flex-direction: column;
+        margin-left: 97px;
+        font-size: 17px;
+        
+    }
+
+    .modal{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: -450px;
+    }
+
+    .modal-body{
+        width: 200%;
+    }
 
     #contato{
         font-size:25px;
@@ -525,282 +731,43 @@ header {
     }
 }
 
-/* //MEDIA QUERIES SIMONE// */
+@media (max-width: 991px){
 
-@media (min-width: 320px){
-    
-    .logo-monomito {
-        display: none;
+
+    .menu-responsivo{
+        background-color: black;
+       position: absolute;
+       width: 100%;
+       top: 80px;
     }
 
-    .logo-monomito-2 {
-        display: none;
+    nav img{
+        width:130px;
+        z-index: 1;
+        margin-left: 1px;
+        margin-top: 2px;   
     }
 
-    .texto-somos {
-        margin-top: 10px;
-        font-size: 19px;
-        margin-right: -86px;
+    .menu{
+        background-color:white;
+        margin-top: -10px;
     }
 
-    .foto-larissa {
-        margin-left: 64px;
-    }
-
-    .foto-lincoln {
-        margin-left: 64px;
-    }
-
-    .foto-paulo {
-        margin-left: 64px;
-    }
-
-    .titulo {
-        font-size: 20px;
-        margin-left: 30px;
-    }
-
-    .texto-monomito {
-        font-size: 18px;
-        margin-left: 30px;    
-    }
-
-    .texto-monomito-2 {
-        font-size: 18px;
-        margin-left: 30px;
-        
-    }
-}
-
-@media (min-width: 375px) {
-    
-    .logo-monomito {
-        display: none;
-    }
-
-    .logo-monomito-2 {
-        display: none;
-    }
-
-    .texto-somos {
-        font-size: 25px;  
-    }
-
-    .foto-larissa {
-        margin-left: 13px;
-        margin-bottom: 5px;
-    }
-
-    .foto-lincoln {
-        margin-left: 13px;
-        margin-bottom: 5px;
-    }
-
-    .foto-paulo {
-        margin-left: 13px;
-        margin-bottom: 5px;
-    }
-
-    .titulo {
-        font-size: 25px;
-        margin-top: 10px
-    }
-
-    .texto-monomito {
-        font-size: 20px;
-        margin-left: 15px;
-    }
-
-    .texto-monomito-2 {
-        margin-left: 15px;
-        font-size: 20px;
-    }
-}
-
-@media (min-width: 425px) {
-    /* .producao-img {
-        width: 425px;
-    } */
-
-    .texto-somos {
-        font-size: 30px;
-    }
-
-    .foto-larissa {
-        width: 50px;
-        height: 50px;
-        margin-left: 20px;
-    }
-
-    .texto-larissa {
-        font-size: 21px;
-    }
-    
-    .foto-lincoln {
-        width: 50px;
-        height: 50px;
-        margin-left: 20px;
-    }
-
-    .texto-lincoln {
-        font-size: 21px;
-    }
-
-    .foto-paulo {
-        width: 50px;
-        height: 50px;
-        margin-left: 20px;
-    }
-
-    .texto-paulo {
-        font-size: 21px;
-    }
-
-    .titulo {
-        margin-top: 10px;
-        font-size: 25px;
-    }
-
-    .texto-monomito {
-        margin-left: 25px;
-        font-size: 20px;
-    }
-
-    .texto-monomito-2 {
-        margin-left: 25px;
-        font-size: 20px;
-       
-    }
-}
-@media (min-width: 768px) {
-
-    .container-row {
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    .producao-img {
+    .fixo{
+        height: 80px;
+        background-color: black;
         position: relative;
-        width: 60%;
-        /* margin-left: 110px; */
-    }
-
-    .fotos {
-        display: flex;
-        position: relative;
-        justify-content: center;
-    }
-
-    .logo-monomito {
-        display: flex;
-        width: 50px;
-        position: absolute;
-        top: 60px;
-        right: 10px;
-        /* transform: translateY(-50%); */
-        transform: translateX(-85%);
-    
-    }
-
-    .logo-monomito-2 {
-        display: flex;
-        width: 50px;
-        position: absolute;
-        top: 60px;
-        left: 10px;
-        /* transform: translateY(50%); */
-        transform: translateX(85%);
-    }
-
-    .div-mae{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
     }
     
-    .texto-somos {
-        font-size: 20px;
-        margin-top: 30px;
-        margin-left: 20px;
-        /* margin-right: 341px; */
-        /* width: 50% */
-    }
-    
-    .texto-larissa {
-        font-size: 16px;
-        width: 167px;
-        /* width: 50% */
-    }
-
-    .foto-larissa{
-        width: 60px;
-        height: 60px;
-        margin-bottom: 20px;
-        margin-left: 30px;
-    }
-
-    .texto-lincoln {
-        font-size: 16px;
-        width: 167px;
-        /* width: 50% */
-    }
-
-    .foto-lincoln{
-        width: 60px;
-        height: 60px;
-        margin-bottom: 20px;
-        margin-left: 30px;
-    }
-
-    .texto-paulo {
-        font-size: 16px;
-        width: 167px;
-        /* width: 50% */
-    }
-
-    .foto-paulo {
-        width: 60px;
-        height: 60px;
-        margin-bottom: 20px;
-        margin-left: 30px;
-    }
-
-    .texto-quem-somos{
-        display: block;
-    }
-    
-    .titulo {
-        margin-top: 30px;
-        margin-left: 110px;
-    }
-
-    .texto-monomito {
-        flex-direction: column;
-        margin-left: 97px;
-        font-size: 17px;
-    }
-
-    .texto-monomito-2 {
-        flex-direction: column;
-        margin-left: 97px;
-        font-size: 17px;
-        
-    }
-
-    .modal{
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: -450px;
-    }
-
-    .modal-body{
-        width: 200%;
-    }
 }
 
 @media (min-width: 1024px) {
+
+    .menu-responsivo{
+        background-color: transparent;
+        width: auto;
+    }
+
     .logo-monomito {
         width: 80px;
     }
@@ -823,8 +790,6 @@ header {
         font-size: 24px;
         width: 150%;
         margin-top: 30px;
-        /* margin-right: 341px; */
-        /* width: 50% */
     }
 
     .titulo {
@@ -835,7 +800,6 @@ header {
 
     .texto-larissa {
         margin-left: 17px;
-        /* width: 50% */
     }
 
     .foto-larissa{
@@ -847,7 +811,6 @@ header {
 
     .texto-lincoln {
         margin-left: 17px;
-        /* width: 50% */
     }
 
     .foto-lincoln{
@@ -859,7 +822,6 @@ header {
 
     .texto-paulo {
         margin-left: 17px;
-        /* width: 50% */
     }
 
     .foto-paulo {
@@ -887,7 +849,6 @@ header {
     }
 }
 
-
 @media (min-width: 1440px) {
     
     .logo-monomito {
@@ -909,15 +870,12 @@ header {
         width: 103%;
         margin-top: 30px;
         margin-left: 46px;
-        /* margin-right: 341px; */
-        /* width: 50% */
     }
     
     .texto-larissa {
         margin-left: 17px;
         font-size: 23px;
         width: 397px;
-        /* width: 50% */
     }
 
     .foto-larissa{
@@ -931,7 +889,6 @@ header {
         margin-left: 17px;
         font-size: 23px;
         width: 397px;
-        /* width: 50% */
     }
 
     .foto-lincoln{
@@ -945,7 +902,6 @@ header {
         margin-left: 17px;
         font-size: 23px;
         width: 397px;
-        /* width: 50% */
     }
 
     .foto-paulo {
@@ -1001,15 +957,12 @@ header {
         width: 103%;
         margin-top: 30px;
         margin-left: 250px;
-        /* margin-right: 341px; */
-        /* width: 50% */
     }
     
     .texto-larissa {
         margin-left: 17px;
         font-size: 23px;
         width: 397px;
-        /* width: 50% */
     }
 
     .foto-larissa{
@@ -1023,7 +976,6 @@ header {
         margin-left: 17px;
         font-size: 23px;
         width: 397px;
-        /* width: 50% */
     }
 
     .foto-lincoln{
@@ -1037,7 +989,6 @@ header {
         margin-left: 17px;
         font-size: 23px;
         width: 397px;
-        /* width: 50% */
     }
 
     .foto-paulo {
